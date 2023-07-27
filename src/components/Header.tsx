@@ -9,8 +9,10 @@ function Header() {
 		const html = document.querySelector('html');
 		if (isDarkMode) {
 			html?.classList.add('dark');
+			localStorage.setItem('darkMode', 'true');
 		} else {
 			html?.classList.remove('dark');
+			localStorage.setItem('darkMode', 'false');
 		}
 	}, [isDarkMode]);
 

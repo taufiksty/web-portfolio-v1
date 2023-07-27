@@ -6,12 +6,18 @@ interface DarkModeContextProps {
 }
 
 export const DarkModeContext = createContext<DarkModeContextProps>({
-	isDarkMode: false,
+	isDarkMode: localStorage.getItem('darkMode')
+		? JSON.parse(localStorage.getItem('darkMode') as string)
+		: false,
 	setIsDarkMode: () => {},
 });
 
 const DarkModeContextProvider = ({ children }: { children: ReactNode }) => {
-	const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
+	const [isDarkMode, setIsDarkMode] = useState<boolean>(
+		localStorage.getItem('darkMode')
+			? JSON.parse(localStorage.getItem('darkMode') as string)
+			: false,
+	);
 
 	return (
 		<DarkModeContext.Provider value={{ isDarkMode, setIsDarkMode }}>

@@ -1,3 +1,5 @@
+import Reveal from '../animations/Reveal';
+
 function Footer() {
 	return (
 		<footer className="py-20 flex flex-col items-center space-y-3">
@@ -44,8 +46,12 @@ function Footer() {
 
 			{/* <Copyright> */}
 			<div className="text-[14px] text-[#656D72] dark:text-white text-center">
-				<p>Design inspiration by Alex Smith</p>
-				<p>&copy; 2023 - Muhamad Taufik Satya</p>
+				<Reveal>
+					<p>Design inspiration by Alex Smith</p>
+				</Reveal>
+				<Reveal>
+					<p>&copy; 2023 - Muhamad Taufik Satya</p>
+				</Reveal>
 			</div>
 			{/* </Copyright> */}
 		</footer>

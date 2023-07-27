@@ -1,3 +1,5 @@
+import Reveal from '../animations/Reveal';
+import Measure from './elements/Measure';
 import Path from './elements/Path';
 
 function Educations() {
@@ -11,17 +13,21 @@ function Educations() {
 					src="line.svg"
 					alt="line"
 				/>
-				<h3 className="font-medium text-[#656D72] dark:text-white text-[12px] tracking-[1em]">
-					LEARNING PATH
-				</h3>
+				<Reveal>
+					<h3 className="font-medium text-[#656D72] dark:text-white text-[12px] tracking-[1em]">
+						LEARNING PATH
+					</h3>
+				</Reveal>
 			</div>
 			{/* </AboveTitle> */}
 
 			{/* <Title> */}
 			<div className="mt-5">
-				<h1 className="font-bold text-[30px] font-plusJakartaSans dark:text-white">
-					Education & Skills
-				</h1>
+				<Reveal>
+					<h1 className="font-bold text-[30px] font-plusJakartaSans dark:text-white">
+						Education & Skills
+					</h1>
+				</Reveal>
 			</div>
 			{/* </Title> */}
 
@@ -35,41 +41,31 @@ function Educations() {
 
 				{/* <DescriptionAndSkills> */}
 				<div className="mt-5 lg:mt-10 lg:w-1/2 space-y-4 lg:space-y-8">
-					<p className="font-inter text-[16px] text-[#656D72] dark:text-white leading-8">
-						For 2+ years, I have been continuously learning in the field of
-						front-end and back-end with new technologies and frameworks, and
-						here you can see a summary of my skills.
-					</p>
+					<Reveal>
+						<p className="font-inter text-[16px] text-[#656D72] dark:text-white leading-8">
+							For 2+ years, I have been continuously learning in the field of
+							front-end and back-end with new technologies and frameworks, and
+							here you can see a summary of my skills.
+						</p>
+					</Reveal>
 					<div className="space-y-4">
 						{/* <React> */}
-						<div className="lg:space-y-1 mx-1 lg:mx-0">
-							<p className="font-inter text-[14px] font-medium text-[#232E35] dark:text-white">
-								React
-							</p>
-							<div className="h-[6px] lg:h-2 bg-[#F5F3FE] w-full rounded-full">
-								<div className="h-[6px] lg:h-2 bg-[#50C878] w-1/2 rounded-full"></div>
-							</div>
-						</div>
+						<Measure
+							name="React"
+							percentage="50%"
+						/>
 						{/* </React> */}
 						{/* <NodeJS> */}
-						<div className="lg:space-y-1 mx-1 lg:mx-0">
-							<p className="font-inter text-[14px] font-medium text-[#232E35] dark:text-white">
-								NodeJS
-							</p>
-							<div className="h-[6px] lg:h-2 bg-[#F5F3FE] w-full rounded-full">
-								<div className="h-[6px] lg:h-2 bg-[#50C878] w-1/2 rounded-full"></div>
-							</div>
-						</div>
+						<Measure
+							name="NodeJS"
+							percentage="50%"
+						/>
 						{/* </NodeJS> */}
 						{/* <Codeigniter> */}
-						<div className="lg:space-y-1 mx-1 lg:mx-0">
-							<p className="font-inter text-[14px] font-medium text-[#232E35] dark:text-white">
-								Codeigniter
-							</p>
-							<div className="h-[6px] lg:h-2 bg-[#F5F3FE] w-full rounded-full">
-								<div className="h-[6px] lg:h-2 bg-[#50C878] w-1/2 rounded-full"></div>
-							</div>
-						</div>
+						<Measure
+							name="Codeigniter"
+							percentage="50%"
+						/>
 						{/* </Codeigniter> */}
 					</div>
 				</div>

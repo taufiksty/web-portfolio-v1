@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Reveal from '../animations/Reveal';
 
 function Hero() {
 	return (
@@ -31,39 +32,41 @@ function Hero() {
 			{/* </Picture> */}
 
 			{/* <Intro> */}
-			<motion.div
-				initial={{ opacity: 0, translateY: 50 }}
-				animate={{ opacity: 1, translateY: 0 }}
-				transition={{ duration: 1 }}
-				className="mt-20 md:mt-0 md:w-1/2 md:self-center">
+			<div className="mt-20 md:mt-0 md:w-1/2 md:self-center">
 				{/* <AboveTitle> */}
 				<div className="flex space-x-3">
 					<img
 						src="line.svg"
 						alt="line"
 					/>
-					<h3 className="font-medium text-[#656D72] dark:text-white text-[12px] tracking-[1em]">
-						MY NAME IS
-					</h3>
+					<Reveal>
+						<h3 className="font-medium text-[#656D72] dark:text-white text-[12px] tracking-[1em]">
+							MY NAME IS
+						</h3>
+					</Reveal>
 				</div>
 				{/* </AboveTitle> */}
 
 				{/* <Title> */}
 				<div className="mt-5">
-					<h1 className="font-bold text-[30px] font-plusJakartaSans dark:text-white">
-						Muhamad <span className="text-emerald-500">Taufik Satya.</span>
-					</h1>
+					<Reveal>
+						<h1 className="font-bold text-[30px] font-plusJakartaSans dark:text-white">
+							Muhamad <span className="text-emerald-500">Taufik Satya.</span>
+						</h1>
+					</Reveal>
 				</div>
 				{/* </Title> */}
 
 				{/* <Description> */}
 				<div className="mt-5">
-					<p className="text-[16px] text-[#232E35] dark:text-white leading-8">
-						Second-year Information Systems student with a focus on web
-						development, both front-end and back-end. Able in using technologies
-						such as CodeIgniter, Node.js, and React. Passionate about creating
-						dynamic and scalable web applications.
-					</p>
+					<Reveal>
+						<p className="text-[16px] text-[#232E35] dark:text-white leading-8">
+							Second-year Information Systems student with a focus on web
+							development, both front-end and back-end. Able in using
+							technologies such as CodeIgniter, Node.js, and React. Passionate
+							about creating dynamic and scalable web applications.
+						</p>
+					</Reveal>
 				</div>
 				{/* </Description> */}
 
@@ -107,7 +110,7 @@ function Hero() {
 					</a>
 				</div>
 				{/* </SocialMedia> */}
-			</motion.div>
+			</div>
 			{/* </Intro> */}
 		</section>
 	);

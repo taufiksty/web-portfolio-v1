@@ -1,3 +1,4 @@
+import Reveal from '../animations/Reveal';
 import Card from './elements/Card';
 
 function Portfolios() {
@@ -21,17 +22,21 @@ function Portfolios() {
 					src="line.svg"
 					alt="line"
 				/>
-				<h3 className="font-medium text-[#656D72] dark:text-white text-[12px] tracking-[1em]">
-					MY WORKS
-				</h3>
+				<Reveal>
+					<h3 className="font-medium text-[#656D72] dark:text-white text-[12px] tracking-[1em]">
+						MY WORKS
+					</h3>
+				</Reveal>
 			</div>
 			{/* </AboveTitle> */}
 
 			{/* <Title> */}
 			<div className="mt-5">
-				<h1 className="font-bold text-[30px] dark:text-white font-plusJakartaSans">
-					Featured Portfolios
-				</h1>
+				<Reveal>
+					<h1 className="font-bold text-[30px] dark:text-white font-plusJakartaSans">
+						Featured Portfolios
+					</h1>
+				</Reveal>
 			</div>
 			{/* </Title> */}
 

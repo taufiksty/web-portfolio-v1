@@ -1,3 +1,4 @@
+import Reveal from '../animations/Reveal';
 import Form from './elements/Form';
 
 function Contact() {
@@ -11,17 +12,21 @@ function Contact() {
 					src="line.svg"
 					alt="line"
 				/>
-				<h3 className="font-medium text-[#656D72] dark:text-white text-[12px] tracking-[1em]">
-					LET'S COLLABORATE
-				</h3>
+				<Reveal>
+					<h3 className="font-medium text-[#656D72] dark:text-white text-[12px] tracking-[1em]">
+						LET'S COLLABORATE
+					</h3>
+				</Reveal>
 			</div>
 			{/* </AboveTitle> */}
 
 			{/* <Title> */}
 			<div className="mt-5">
-				<h1 className="font-bold text-[30px] font-plusJakartaSans dark:text-white">
-					Contact Me
-				</h1>
+				<Reveal>
+					<h1 className="font-bold text-[30px] font-plusJakartaSans dark:text-white">
+						Contact Me
+					</h1>
+				</Reveal>
 			</div>
 			{/* </Title> */}
 
@@ -54,12 +59,16 @@ function Contact() {
 						{/* </Icon> */}
 						{/* <Value> */}
 						<div>
-							<h4 className="font-inter text-[#232E35] dark:text-white font-medium text-[16px]">
-								Domicile
-							</h4>
-							<p className="text-[#656D72] dark:text-white font-inter text-[14px]">
-								Depok, West Java, Indonesia
-							</p>
+							<Reveal>
+								<h4 className="font-inter text-[#232E35] dark:text-white font-medium text-[16px]">
+									Domicile
+								</h4>
+							</Reveal>
+							<Reveal>
+								<p className="text-[#656D72] dark:text-white font-inter text-[14px]">
+									Depok, West Java, Indonesia
+								</p>
+							</Reveal>
 						</div>
 						{/* </Value> */}
 					</div>
@@ -86,12 +95,16 @@ function Contact() {
 						{/* </Icon> */}
 						{/* <Value> */}
 						<div>
-							<h4 className="font-inter text-[#232E35] dark:text-white font-medium text-[16px]">
-								Phone
-							</h4>
-							<p className="text-[#656D72] dark:text-white font-inter text-[14px]">
-								(+62) 897 9320 117
-							</p>
+							<Reveal>
+								<h4 className="font-inter text-[#232E35] dark:text-white font-medium text-[16px]">
+									Phone
+								</h4>
+							</Reveal>
+							<Reveal>
+								<p className="text-[#656D72] dark:text-white font-inter text-[14px]">
+									(+62) 897 9320 117
+								</p>
+							</Reveal>
 						</div>
 						{/* </Value> */}
 					</div>
@@ -118,12 +131,16 @@ function Contact() {
 						{/* </Icon> */}
 						{/* <Value> */}
 						<div>
-							<h4 className="font-inter text-[#232E35] dark:text-white font-medium text-[16px]">
-								E-Mail
-							</h4>
-							<p className="text-[#656D72] dark:text-white font-inter text-[14px]">
-								taufik.satya09@gmail.com
-							</p>
+							<Reveal>
+								<h4 className="font-inter text-[#232E35] dark:text-white font-medium text-[16px]">
+									E-Mail
+								</h4>
+							</Reveal>
+							<Reveal>
+								<p className="text-[#656D72] dark:text-white font-inter text-[14px]">
+									taufik.satya09@gmail.com
+								</p>
+							</Reveal>
 						</div>
 						{/* </Value> */}
 					</div>
