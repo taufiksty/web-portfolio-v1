@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #50c878;
+	border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #83e8a5;
+}
+
+@layer base {
+	html {
+		@apply scroll-smooth;
+	}
+}
+
+.progress-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 5px;
+	background: #50c878;
+	transform-origin: 0%;
+	z-index: 20;
+}
