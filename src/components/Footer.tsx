@@ -47,7 +47,7 @@ function Footer() {
 			{/* <Copyright> */}
 			<div className="text-[14px] text-[#656D72] dark:text-white text-center">
 				<Reveal>
-					<p>Design inspiration by Alex Smith</p>
+					<p>Design inspiration by Caleb Nyong</p>
 				</Reveal>
 				<Reveal>
 					<p>&copy; 2023 - Muhamad Taufik Satya</p>

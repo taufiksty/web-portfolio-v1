@@ -108,7 +108,7 @@ function Portfolios() {
 					<Card
 						imageSrc="forum-api.png"
 						title="Forum API"
-						description="Forum API adalah sebuah API media sosial, mirip dengan Twitter, yang dibangun menggunakan Hapi NodeJS, PostgreSQL, Clean Architecture, dan melakukan Testing (Unit, Integration, dan Functional). Ini merupakan submission akhir untuk kursus 'Menjadi Backend Developer Expert' di Dicoding."
+						description="Forum API adalah sebuah API media sosial, mirip dengan Twitter, yang dibangun menggunakan Hapi NodeJS, PostgreSQL, Clean Architecture, dan Testing (Unit, Integration, dan Functional). Ini merupakan submission akhir untuk kursus 'Menjadi Backend Developer Expert' di Dicoding."
 						linkGithub="https://github.com/taufiksty/forum-api-dicoding/tree/main"
 					/>
 				</div>
