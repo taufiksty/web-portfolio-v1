@@ -1,8 +1,14 @@
-import Reveal from '../animations/Reveal';
-import Measure from './elements/Measure';
-import Path from './elements/Path';
+import Fade from '@animations/Fade';
+import Reveal from '@animations/Reveal';
+import Path from '@elements/Path';
 
 function Educations() {
+	const animationFade = {
+		initial: { opacity: 0, translateX: 50 },
+		visible: { opacity: 1, translateX: 0 },
+		transition: { duration: 1, delay: 0.25 },
+	};
+
 	return (
 		<section
 			id="educations"
@@ -48,25 +54,58 @@ function Educations() {
 							here you can see a summary of my skills.
 						</p>
 					</Reveal>
-					<div className="space-y-4">
-						{/* <React> */}
-						<Measure
-							name="React"
-							percentage="50%"
-						/>
-						{/* </React> */}
-						{/* <NodeJS> */}
-						<Measure
-							name="NodeJS"
-							percentage="50%"
-						/>
-						{/* </NodeJS> */}
-						{/* <Codeigniter> */}
-						<Measure
-							name="Codeigniter"
-							percentage="50%"
-						/>
-						{/* </Codeigniter> */}
+					<div className="flex justify-center lg:justify-start pt-2 space-x-3">
+						{/* <IconsDev> */}
+						<Fade {...animationFade}>
+							<img
+								src="js.png"
+								alt="js"
+								className="w-10 rounded aspect-auto p-1"
+							/>
+						</Fade>
+						<Fade {...animationFade}>
+							<img
+								src="ts.png"
+								alt="ts"
+								className="w-10 rounded aspect-auto p-1"
+							/>
+						</Fade>
+						<Fade {...animationFade}>
+							<img
+								src="react.png"
+								alt="react"
+								className="w-12 rounded aspect-auto p-1"
+							/>
+						</Fade>
+						<Fade {...animationFade}>
+							<img
+								src="nodejs.png"
+								alt="nodejs"
+								className="w-14 rounded aspect-auto p-1 dark:bg-white"
+							/>
+						</Fade>
+						<Fade {...animationFade}>
+							<img
+								src="codeigniter.png"
+								alt="codeigniter"
+								className="w-10 rounded aspect-auto p-1"
+							/>
+						</Fade>
+						<Fade {...animationFade}>
+							<img
+								src="mysql.png"
+								alt="mysql"
+								className="w-14 rounded aspect-auto p-1"
+							/>
+						</Fade>
+						<Fade {...animationFade}>
+							<img
+								src="postgresql.png"
+								alt="postgresql"
+								className="w-10 rounded aspect-auto p-1"
+							/>
+						</Fade>
+						{/* </IconsDev> */}
 					</div>
 				</div>
 				{/* </DescriptionAndSkills> */}

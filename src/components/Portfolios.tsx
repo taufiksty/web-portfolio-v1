@@ -1,5 +1,5 @@
-import Reveal from '../animations/Reveal';
-import Card from './elements/Card';
+import Reveal from '@animations/Reveal';
+import Card from '@elements/Card';
 
 function Portfolios() {
 	const scrollLeft = () => {

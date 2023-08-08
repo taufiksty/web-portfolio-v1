@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import Reveal from '../animations/Reveal';
+import Reveal from '@animations/Reveal';
 
 function Hero() {
 	return (

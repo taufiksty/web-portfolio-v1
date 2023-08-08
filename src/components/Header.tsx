@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from 'react';
-import { DarkModeContext } from '../contexts/DarkMode';
+import { DarkModeContext } from '@contexts/DarkMode';
 
 function Header() {
 	const [navbar, setNavbar] = useState(false);

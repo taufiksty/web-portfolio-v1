@@ -1,5 +1,5 @@
-import Reveal from '../animations/Reveal';
-import Specialize from './elements/Specialize';
+import Reveal from '@animations/Reveal';
+import Specialize from '@elements/Specialize';
 
 function Services() {
 	return (

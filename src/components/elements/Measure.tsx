@@ -1,4 +1,4 @@
-import Reveal from '../../animations/Reveal';
+import Reveal from '@animations/Reveal';
 
 interface Props {
 	name: string;

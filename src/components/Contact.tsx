@@ -1,5 +1,5 @@
-import Reveal from '../animations/Reveal';
-import Form from './elements/Form';
+import Reveal from '@animations/Reveal';
+import Form from '@elements/Form';
 
 function Contact() {
 	return (
