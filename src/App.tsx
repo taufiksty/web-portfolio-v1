@@ -6,6 +6,7 @@ import Header from '@components/Header';
 import Hero from '@components/Hero';
 import Portfolios from '@components/Portfolios';
 import Services from '@components/Services';
+import BackToTopButton from '@components/elements/BackToTopButton';
 
 function App() {
 	const { scrollYProgress } = useScroll();
@@ -48,6 +49,10 @@ function App() {
 			{/* <Footer> */}
 			<Footer />
 			{/* </Footer> */}
+
+			{/* <BackToTopButton> */}
+			<BackToTopButton />
+			{/* </BackToTopButton> */}
 		</div>
 	);
 }
