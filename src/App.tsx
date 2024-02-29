@@ -17,9 +17,9 @@ function App() {
 	});
 
 	return (
-		<div className="px-4 md:px-8 mx-auto lg:max-w-7xl font-inter lg:overflow-x-clip">
+		<div className='px-4 md:px-8 mx-auto lg:max-w-7xl font-inter lg:overflow-x-clip'>
 			<motion.div
-				className="progress-bar"
+				className='progress-bar'
 				style={{ scaleX }}
 			/>
 			{/* <Header> */}
