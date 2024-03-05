@@ -11,16 +11,16 @@ function Educations() {
 
 	return (
 		<section
-			id="educations"
-			className="py-10">
+			id='educations'
+			className='py-10'>
 			{/* <AboveTitle> */}
-			<div className="flex space-x-3">
+			<div className='flex space-x-3'>
 				<img
-					src="line.svg"
-					alt="line"
+					src='line.svg'
+					alt='line'
 				/>
 				<Reveal>
-					<h3 className="font-medium text-[#656D72] dark:text-white text-[12px] tracking-[1em]">
+					<h3 className='font-medium text-[#656D72] dark:text-white text-[12px] tracking-[1em]'>
 						LEARNING PATH
 					</h3>
 				</Reveal>
@@ -28,9 +28,9 @@ function Educations() {
 			{/* </AboveTitle> */}
 
 			{/* <Title> */}
-			<div className="mt-5">
+			<div className='mt-5'>
 				<Reveal>
-					<h1 className="font-bold text-[30px] font-plusJakartaSans dark:text-white">
+					<h1 className='font-bold text-[30px] font-plusJakartaSans dark:text-white'>
 						Education & Skills
 					</h1>
 				</Reveal>
@@ -38,71 +38,72 @@ function Educations() {
 			{/* </Title> */}
 
 			{/* <Content> */}
-			<div className="lg:flex lg:gap-40 lg:mt-10">
+			<div className='lg:flex lg:gap-40 lg:mt-10'>
 				{/* <Path> */}
-				<div className="mt-10 mx-3 lg:w-1/4">
+				<div className='mt-10 mx-3 lg:w-1/4'>
 					<Path />
 				</div>
 				{/* </Path> */}
 
 				{/* <DescriptionAndSkills> */}
-				<div className="mt-5 lg:mt-10 lg:w-1/2 space-y-4 lg:space-y-8">
+				<div className='mt-5 lg:mt-10 lg:w-1/2 space-y-4 lg:space-y-8'>
 					<Reveal>
-						<p className="font-inter text-[16px] text-[#656D72] dark:text-white leading-8">
-							For 2+ years, I have been continuously learning in the field of
-							front-end and back-end with new technologies and frameworks, and
-							here you can see a summary of my skills.
+						<p className='font-inter text-[16px] dark:text-white leading-8'>
+							For 2+ years, I have been continuously learning in
+							the field of front-end and back-end with new
+							technologies and frameworks, and here you can see a
+							summary of my skills.
 						</p>
 					</Reveal>
-					<div className="flex justify-center lg:justify-start pt-2 space-x-3">
+					<div className='flex justify-center lg:justify-start pt-2 space-x-3'>
 						{/* <IconsDev> */}
 						<Fade {...animationFade}>
 							<img
-								src="js.png"
-								alt="js"
-								className="w-10 rounded aspect-auto p-1"
+								src='js.png'
+								alt='js'
+								className='w-10 rounded aspect-auto p-1'
 							/>
 						</Fade>
 						<Fade {...animationFade}>
 							<img
-								src="ts.png"
-								alt="ts"
-								className="w-10 rounded aspect-auto p-1"
+								src='ts.png'
+								alt='ts'
+								className='w-10 rounded aspect-auto p-1'
 							/>
 						</Fade>
 						<Fade {...animationFade}>
 							<img
-								src="react.png"
-								alt="react"
-								className="w-12 rounded aspect-auto p-1"
+								src='react.png'
+								alt='react'
+								className='w-12 rounded aspect-auto p-1'
 							/>
 						</Fade>
 						<Fade {...animationFade}>
 							<img
-								src="nodejs.png"
-								alt="nodejs"
-								className="w-14 rounded aspect-auto p-1 dark:bg-white"
+								src='nodejs.png'
+								alt='nodejs'
+								className='w-14 rounded aspect-auto p-1 dark:bg-white'
 							/>
 						</Fade>
 						<Fade {...animationFade}>
 							<img
-								src="codeigniter.png"
-								alt="codeigniter"
-								className="w-10 rounded aspect-auto p-1"
+								src='codeigniter.png'
+								alt='codeigniter'
+								className='w-10 rounded aspect-auto p-1'
 							/>
 						</Fade>
 						<Fade {...animationFade}>
 							<img
-								src="mysql.png"
-								alt="mysql"
-								className="w-14 rounded aspect-auto p-1"
+								src='mysql.png'
+								alt='mysql'
+								className='w-14 rounded aspect-auto p-1'
 							/>
 						</Fade>
 						<Fade {...animationFade}>
 							<img
-								src="postgresql.png"
-								alt="postgresql"
-								className="w-10 rounded aspect-auto p-1"
+								src='postgresql.png'
+								alt='postgresql'
+								className='w-10 rounded aspect-auto p-1'
 							/>
 						</Fade>
 						{/* </IconsDev> */}
