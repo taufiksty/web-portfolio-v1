@@ -8,6 +8,8 @@ import Portfolios from '@components/Portfolios';
 import Services from '@components/Services';
 import BackToTopButton from '@components/elements/BackToTopButton';
 
+// v1.4
+
 function App() {
 	const { scrollYProgress } = useScroll();
 	const scaleX = useSpring(scrollYProgress, {
