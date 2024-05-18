@@ -105,7 +105,7 @@ function Portfolios() {
 					</div>
 				</Carousel>
 			</div>
-			<div className='mt-10 flex w-full justify-center'>
+			{/* <div className='mt-10 flex w-full justify-center'>
 				<button className='flex justify-center items-center space-x-2 border py-2 px-5 rounded bg-emerald-300 hover:opacity-80'>
 					<Reveal>
 						<p className='text-[14px] font-inter font-medium'>
@@ -126,7 +126,7 @@ function Portfolios() {
 						/>
 					</svg>
 				</button>
-			</div>
+			</div> */}
 		</section>
 	);
 }
