@@ -52,7 +52,7 @@ function Header() {
 								</button>
 								<a
 									className='border px-2 rounded my-1 hover:border-emerald-300 hover:text-emerald-300 hover:bg-zinc-50 dark:hover:bg-transparent'
-									href='https://drive.google.com/file/d/1iPar8Al0A934fdL8rvsdYljR-TE2aeRR/view?usp=sharing'
+									href='https://drive.google.com/file/d/18UnRomkUPujPDCD13zxMEFzEv85E1imH/view?usp=sharing'
 									target='_blank'>
 									Resume
 								</a>
