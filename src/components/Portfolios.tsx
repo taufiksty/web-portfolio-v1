@@ -84,6 +84,7 @@ function Portfolios() {
 					merupakan sebuah website sistem pengaduan dan informasi masalah
 					kebersihan lingkungan. Website ini dibangun dengan menggunakan
 					teknologi React, CodeIgniter, dan MySQL.'
+							linkDemo='https://bersihbersama.netlify.app/'
 							linkGithub='https://github.com/taufiksty/bersihbersama-wp3'
 						/>
 					</div>
