@@ -70,10 +70,13 @@ function Portfolios() {
 					}>
 					<div className='flex h-full w-full items-center justify-center dark:text-white'>
 						<Card
-							imageSrc='loma.png'
-							title='Loma (Lowongan Mahasiswa) Website'
-							description='Sebagai tugas akhir matakuliah Web Programming 2, Loma merupakan sebuah website sistem lowongan magang, part-time, dan volunteer khusus untuk mahasiswa aktif. Website ini dibangun menggunakan teknologi Codeigniter dan MySQL.'
-							linkGithub='https://github.com/taufiksty/web2-loma'
+							imageSrc='umkm-grow.png'
+							title='UMKM Grow Website'
+							description='Sebagai final project pada Skilvul - Fullstack Web Development #Tech4Impat,
+							UMKM Grow merupakan website edukasi UMKM yang diharapkan menjadi solusi dari tantangan #Tech4Impact bidang UMKM. 
+							Website ini dibangun dengan menggunakan teknologi React, Express, dan MySQL.'
+							linkDemo='https://frontend-capstone-umkmgrow.vercel.app/'
+							linkGithub='https://github.com/orgs/FS-9-SkilvulTech4Impact/repositories'
 						/>
 					</div>
 					<div className='flex h-full w-full items-center justify-center dark:text-white'>
@@ -86,6 +89,14 @@ function Portfolios() {
 					teknologi React, CodeIgniter, dan MySQL.'
 							linkDemo='https://bersihbersama.netlify.app/'
 							linkGithub='https://github.com/taufiksty/bersihbersama-wp3'
+						/>
+					</div>
+					<div className='flex h-full w-full items-center justify-center dark:text-white'>
+						<Card
+							imageSrc='loma.png'
+							title='Loma (Lowongan Mahasiswa) Website'
+							description='Sebagai tugas akhir matakuliah Web Programming 2, Loma merupakan sebuah website sistem lowongan magang, part-time, dan volunteer khusus untuk mahasiswa aktif. Website ini dibangun menggunakan teknologi Codeigniter dan MySQL.'
+							linkGithub='https://github.com/taufiksty/web2-loma'
 						/>
 					</div>
 					<div className='flex h-full w-full items-center justify-center dark:text-white'>
