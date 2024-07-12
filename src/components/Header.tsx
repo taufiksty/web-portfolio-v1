@@ -136,7 +136,7 @@ function Header() {
 							)}
 						</button>
 						<a
-							href='https://drive.google.com/file/d/1KTJYfYRvBPfGenf0rDDOqjrILaSvkAkO/view?usp=sharing'
+							href='https://drive.google.com/file/d/1Krh3_3ZV6EWYQGztJb3Bgv_5wluQe8sM/view?usp=sharing'
 							target='_blank'
 							className='border p-2 rounded my-1 hover:border-emerald-300 hover:text-emerald-300 hover:bg-zinc-50 dark:hover:bg-transparent'>
 							Resume
