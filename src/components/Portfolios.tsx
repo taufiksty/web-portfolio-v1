@@ -115,6 +115,14 @@ function Portfolios() {
 							linkGithub='https://github.com/taufiksty/forum-api-dicoding/tree/main'
 						/>
 					</div>
+					<div className='flex h-full w-full items-center justify-center dark:text-white'>
+						<Card
+							imageSrc='expense-tracker-app.jpg'
+							title='Expense Tracker App'
+							description='Expense Tracker App merupakan salah satu project dalam kelas React Native: The Practical Guide (2024). Project tersebut menggunakan expo SDK versi 51 dan Typescript dan juga telah terintegrasi dengan backend menggunakan Go & PostgreSQL.'
+							linkGithub='https://github.com/taufiksty/expense-tracker-app'
+						/>
+					</div>
 				</Carousel>
 			</div>
 			{/* <div className='mt-10 flex w-full justify-center'>
