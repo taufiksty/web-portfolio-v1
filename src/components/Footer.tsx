@@ -50,7 +50,7 @@ function Footer() {
 					<p>Design inspiration by Caleb Nyong</p>
 				</Reveal>
 				<Reveal>
-					<p>&copy; 2024 - Muhamad Taufik Satya</p>
+					<p>&copy; 2025 - Muhamad Taufik Satya</p>
 				</Reveal>
 			</div>
 			{/* </Copyright> */}
